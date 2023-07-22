@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "rn-little-lemon-app",
+    "name": "little-lemon-app",
     "slug": "little-lemon-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,24 +15,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.jaamaalxyz.littlelemonapp"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.jaamaalxyz.littlelemonapp"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "d274833c-9efa-49e5-a103-1567de519eb8"
-      }
-    },
-    "owner": "jaamaalxyz"
+    }
   }
 }
